@@ -6,19 +6,10 @@
   {vsn, git},
   {modules, []},
   {registered, []},
-  {included_applications, []},
+  {included_applications, [folsom,riak_ensemble]},
   {applications, [
-                  folsom,
-                  os_mon,
-                  riak_ensemble,
-                  kernel,
-                  stdlib,
-                  lager,
-                  riak_sysmon,
-                  basho_stats,
-                  eleveldb,
-                  pbkdf2,
-                  poolboy
+                   os_mon,kernel,stdlib,lager,riak_sysmon,
+                             basho_stats,eleveldb,pbkdf2,poolboy
                  ]},
   {mod, {riak_core_app, []}},
   {env, [
