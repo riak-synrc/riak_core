@@ -14,7 +14,6 @@
                   kernel,
                   stdlib,
                   lager,
-                  crypto,
                   riak_sysmon,
                   basho_stats,
                   eleveldb,
